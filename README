@@ -1,0 +1,18 @@
+Simple light blog develop framework
+
+Including:
+	User System
+	User Relationship System
+	Message deleivery System
+		push
+	Cache
+		key genertor
+		schema
+			metadata cache
+			list data cache
+	Cache Integration
+		Memcache
+		Redis
+	DB Integration
+		MongoDB
+		Mysql
