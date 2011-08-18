@@ -1,8 +1,15 @@
-Database don't be over design.
-
-For the first version, just one database.
+Database should never be over designed.
 
 Scalability Design:
-1. One database mutiple tables.
-2. One sub-system one database one table.
-3. One sub-system one database
+	1. Splite tables in one database.
+		Msater/Slave
+		1.1 Read/Wirte splitting.
+		1.2 Multi-slaves on Replication.
+	2. Tables splitting.
+	3. Cache System involved.
+	4. Database splitting.
+
+--2011.08.18--
+In the first version:
+        One database
+        One basic table for each sub-system.
