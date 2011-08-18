@@ -1,0 +1,8 @@
+Database don't be over design.
+
+For the first version, just one database.
+
+Scalability Design:
+1. One database mutiple tables.
+2. One sub-system one database one table.
+3. One sub-system one database
