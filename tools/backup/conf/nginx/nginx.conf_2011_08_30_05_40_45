@@ -40,7 +40,6 @@ http {
     #keepalive_timeout  0;
     keepalive_timeout  60 20;
 
-    fastcgi_intercept_errors on;
     fastcgi_connect_timeout 300;
     fastcgi_send_timeout 300;
     fastcgi_read_timeout 300;
