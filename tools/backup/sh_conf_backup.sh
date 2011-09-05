@@ -2,7 +2,8 @@
 
 #Backup config files!
 
-backup_conf_dir='conf'
+backup_conf_dir="$(cd "$(dirname "$0")"; pwd)/conf"
+
 backup_php_conf_dir='php'
 backup_mysql_conf_dir='mysql'
 backup_nginx_conf_dir='nginx'
