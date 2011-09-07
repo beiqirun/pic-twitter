@@ -1,18 +1,25 @@
-Simple light blog develop framework
+A twitter like website for pic sharing.
 
 Including:
 	User System
 	User Relationship System
+	
 	Message deleivery System
 		push
-	Cache
-		key genertor
-		schema
-			metadata cache
-			list data cache
-	Cache Integration
-		Memcache
-		Redis
+	
+	#For the first version, no cache involved.
+	#Cache
+	#	key genertor
+	#	schema
+	#		metadata cache
+	#		list data cache
+	#Cache Integration
+	#	Memcache
+	#	Redis
+	
+
 	DB Integration
-		MongoDB
+		#Don't use MongoDB in the first version.
+		#Use MySQL to implement the basic features.
+		#MongoDB
 		Mysql
